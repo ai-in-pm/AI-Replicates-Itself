@@ -1,0 +1,82 @@
+2024-12-17 06:29:39,679 - AI_GUI_Agent - INFO - Initialized OpenAI client successfully
+2024-12-17 06:29:40,889 - AI_GUI_Agent - INFO - Initialized Anthropic client successfully
+2024-12-17 06:29:40,889 - AI_GUI_Agent - ERROR - Failed to initialize Mistral client: This client is deprecated. To migrate to the new client, please refer to this guide: https://github.com/mistralai/client-python/blob/main/MIGRATION.md. If you need to use this client anyway, pin your version to 0.4.2.
+2024-12-17 06:29:42,219 - AI_GUI_Agent - INFO - Initialized Groq client successfully
+2024-12-17 06:29:42,219 - AI_GUI_Agent - INFO - Initialized Google client successfully
+2024-12-17 06:30:22,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:30:22,511 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:30:26,519 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-12-17 06:30:26,523 - AI_GUI_Agent - ERROR - Anthropic generation error: object Message can't be used in 'await' expression
+2024-12-17 06:30:27,722 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:32:40,729 - AI_GUI_Agent - ERROR - Failed to initialize OpenAI client: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2024-12-17 06:32:41,874 - AI_GUI_Agent - INFO - Initialized Anthropic client successfully
+2024-12-17 06:32:41,874 - AI_GUI_Agent - ERROR - Failed to initialize Mistral client: This client is deprecated. To migrate to the new client, please refer to this guide: https://github.com/mistralai/client-python/blob/main/MIGRATION.md. If you need to use this client anyway, pin your version to 0.4.2.
+2024-12-17 06:32:41,875 - AI_GUI_Agent - ERROR - Failed to initialize Groq client: The api_key client option must be set either by passing api_key to the client or by setting the GROQ_API_KEY environment variable
+2024-12-17 06:32:41,875 - AI_GUI_Agent - INFO - Initialized Google client successfully
+2024-12-17 06:33:09,293 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:11,316 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:13,335 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:15,354 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:17,379 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:19,398 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:21,417 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:23,435 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:25,474 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:33:27,494 - AI_GUI_Agent - ERROR - Anthropic generation error: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2024-12-17 06:37:06,882 - AI_GUI_Agent - INFO - Initialized OpenAI client successfully
+2024-12-17 06:37:08,049 - AI_GUI_Agent - INFO - Initialized Anthropic client successfully
+2024-12-17 06:37:08,049 - AI_GUI_Agent - ERROR - Failed to initialize Mistral client: This client is deprecated. To migrate to the new client, please refer to this guide: https://github.com/mistralai/client-python/blob/main/MIGRATION.md. If you need to use this client anyway, pin your version to 0.4.2.
+2024-12-17 06:37:09,166 - AI_GUI_Agent - INFO - Initialized Groq client successfully
+2024-12-17 06:37:09,167 - AI_GUI_Agent - INFO - Initialized Google client successfully
+2024-12-17 06:37:30,591 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:30,592 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:32,725 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:32,726 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:34,844 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:34,845 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:35,223 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:37:35,247 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:37:36,951 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:36,951 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:39,072 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:39,073 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:40,142 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:37:41,196 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:41,197 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:42,941 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:37:43,344 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:43,345 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:45,460 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:45,460 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:45,942 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:37:47,584 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:47,584 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:48,870 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:37:49,689 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:37:49,689 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:37:51,925 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:37:53,692 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:37:53,705 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:37:54,989 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:37:58,331 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:38:01,332 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:38:04,340 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:38:06,429 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-17 06:38:06,429 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2024-12-17 06:38:11,301 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:38:19,238 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:38:19,240 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:38:40,887 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:38:40,888 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:39:08,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:39:08,882 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:39:34,445 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:39:34,448 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:40:02,165 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:40:02,168 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:40:29,830 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:40:29,833 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:40:57,431 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:40:57,437 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:41:25,543 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:41:25,546 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression

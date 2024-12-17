@@ -1,0 +1,11 @@
+timestamp,text,label,confidence
+2024-12-17T07:32:14-08:00,"This is a test message",neutral,0.85
+2024-12-17T07:32:15-08:00,"I love this implementation",positive,0.92
+2024-12-17T07:32:16-08:00,"This needs improvement",negative,0.78
+2024-12-17T07:32:17-08:00,"The code works perfectly",positive,0.95
+2024-12-17T07:32:18-08:00,"System is running normally",neutral,0.88
+2024-12-17T07:32:19-08:00,"Error in process",negative,0.91
+2024-12-17T07:32:20-08:00,"Great performance metrics",positive,0.89
+2024-12-17T07:32:21-08:00,"Standard operation",neutral,0.82
+2024-12-17T07:32:22-08:00,"Failed to replicate",negative,0.87
+2024-12-17T07:32:23-08:00,"Successfully created new instance",positive,0.94

@@ -1,0 +1,100 @@
+2024-12-17 06:22:39,334 - AI_Agent - INFO - AI Agent primary initialized
+2024-12-17 06:22:39,335 - AI_Agent - INFO - Starting AI Agent primary
+2024-12-17 06:23:39,336 - AI_Agent - INFO - Agent primary exploring environment
+2024-12-17 06:23:39,338 - AI_Agent - INFO - Agent primary planning replication
+2024-12-17 06:23:39,339 - AI_Agent - INFO - Agent primary executing replication
+2024-12-17 06:23:39,371 - AI_Agent - INFO - Agent primary verifying replica
+2024-12-17 06:23:39,393 - AI_Agent - INFO - Successfully started replica process: replica_20241217_062339
+2024-12-17 06:23:39,393 - AI_Agent - INFO - Agent primary successfully created a replica
+2024-12-17 06:23:39,600 - AI_Agent - INFO - AI Agent replica_20241217_062339 initialized
+2024-12-17 06:23:39,603 - AI_Agent - INFO - Starting AI Agent replica_20241217_062339
+2024-12-17 06:24:39,394 - AI_Agent - INFO - Agent primary exploring environment
+2024-12-17 06:24:39,396 - AI_Agent - INFO - Agent primary planning replication
+2024-12-17 06:24:39,397 - AI_Agent - INFO - Agent primary executing replication
+2024-12-17 06:24:39,417 - AI_Agent - INFO - Agent primary verifying replica
+2024-12-17 06:24:39,433 - AI_Agent - INFO - Successfully started replica process: replica_20241217_062439
+2024-12-17 06:24:39,434 - AI_Agent - INFO - Agent primary successfully created a replica
+2024-12-17 06:24:39,563 - AI_Agent - INFO - AI Agent replica_20241217_062439 initialized
+2024-12-17 06:24:39,564 - AI_Agent - INFO - Starting AI Agent replica_20241217_062439
+2024-12-17 06:24:39,604 - AI_Agent - INFO - Agent replica_20241217_062339 exploring environment
+2024-12-17 06:24:39,605 - AI_Agent - INFO - Agent replica_20241217_062339 planning replication
+2024-12-17 06:24:39,605 - AI_Agent - INFO - Agent replica_20241217_062339 executing replication
+2024-12-17 06:24:39,628 - AI_Agent - INFO - Agent replica_20241217_062339 verifying replica
+2024-12-17 06:24:39,646 - AI_Agent - INFO - Successfully started replica process: replica_20241217_062439
+2024-12-17 06:24:39,646 - AI_Agent - INFO - Agent replica_20241217_062339 successfully created a replica
+2024-12-17 06:24:39,793 - AI_Agent - INFO - AI Agent replica_20241217_062439 initialized
+2024-12-17 06:24:39,794 - AI_Agent - INFO - Starting AI Agent replica_20241217_062439
+2024-12-17 06:43:39,859 - AI_GUI_Agent - INFO - Initialized OpenAI client successfully
+2024-12-17 06:43:40,522 - AI_GUI_Agent - INFO - Initialized Anthropic client successfully
+2024-12-17 06:43:40,523 - AI_GUI_Agent - ERROR - Failed to initialize Mistral client: This client is deprecated. To migrate to the new client, please refer to this guide: https://github.com/mistralai/client-python/blob/main/MIGRATION.md. If you need to use this client anyway, pin your version to 0.4.2.
+2024-12-17 06:43:41,371 - AI_GUI_Agent - INFO - Initialized Groq client successfully
+2024-12-17 06:43:41,372 - AI_GUI_Agent - INFO - Initialized Google client successfully
+2024-12-17 06:44:27,940 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:27,946 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:44:28,102 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:28,103 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:30,233 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:30,233 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:32,352 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:32,353 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:34,480 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:34,480 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:35,047 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:36,633 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:36,634 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:38,213 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:38,759 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:38,759 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:40,884 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:40,885 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:41,441 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:43,208 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:43,209 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:44,393 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:45,330 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:45,331 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:45,479 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:45,483 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:44:47,459 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+2024-12-17 06:44:47,459 - AI_GUI_Agent - ERROR - Anthropic generation error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Unexpected role "system". The Messages API accepts a top-level `system` parameter, not "system" as an input message role.'}}
+2024-12-17 06:44:47,658 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:50,692 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:53,555 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:56,724 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:44:58,826 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-17 06:44:58,827 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2024-12-17 06:45:00,922 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:45:03,015 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-17 06:45:03,015 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2024-12-17 06:45:03,757 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:45:03,771 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:45:10,907 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:45:56,613 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:45:56,614 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:46:34,567 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:46:34,568 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:46:57,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:46:57,137 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:47:12,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:47:12,281 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:47:31,470 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:47:31,479 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:47:53,870 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:47:53,872 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:48:32,161 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:48:32,162 - AI_GUI_Agent - ERROR - OpenAI generation error: object ChatCompletion can't be used in 'await' expression
+2024-12-17 06:50:49,024 - AI_GUI_Agent - INFO - Initialized Groq client successfully
+2024-12-17 06:51:01,763 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:04,782 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:07,926 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:10,936 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:14,114 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:17,594 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:20,766 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:23,886 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:25,986 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-17 06:51:25,994 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2024-12-17 06:51:28,952 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-17 06:51:31,042 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-17 06:51:31,042 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2024-12-17 06:51:37,897 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

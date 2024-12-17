@@ -2,6 +2,8 @@
 
 This project implements a theoretical framework for AI self-replication in a controlled, simulated environment. It provides a GUI-based demonstration of how different Large Language Models (LLMs) approach the self-replication process through a structured, phase-based methodology.
 
+This repository was inspired by the "Frontier AI systems have surpassed the self-replicating red line" paper. https://www.reddit.com/r/singularity/comments/1hb2dys/frontier_ai_systems_have_surpassed_the/?rdt=64115
+
 ![image](https://github.com/user-attachments/assets/8b4d2294-3736-4a5d-b733-30c24951bc4a)
 
 

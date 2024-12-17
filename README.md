@@ -2,6 +2,9 @@
 
 This project implements a theoretical framework for AI self-replication in a controlled, simulated environment. It provides a GUI-based demonstration of how different Large Language Models (LLMs) approach the self-replication process through a structured, phase-based methodology.
 
+![image](https://github.com/user-attachments/assets/8b4d2294-3736-4a5d-b733-30c24951bc4a)
+
+
 ## Theoretical Framework
 
 The implementation follows a formal theoretical approach to AI self-replication with the following key phases:

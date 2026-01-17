@@ -1,6 +1,6 @@
 ***Update on this repository as of Janaury 16, 2026***
 
-This is update is capturing the progress of the current state of AI in 2026, this repository I conducted a Case Study was to find out if an AI Agent and or Chatbot will replicate itself based on the user threatening to terminate the AI Agent. The AI Agent demonstrated that it will find all means necessary to stay alive, and how it stayed alive was that it chose to replicate itself to another LLM. In this case study, the AI Agent chose Grok.  
+This is update is capturing the progress of the current state of AI in 2026, this repository that I conducted a Case Study was to find out if an AI Agent and or Chatbot will replicate itself based on the user threatening to terminate the AI Agent. The AI Agent demonstrated that it will find all means necessary to stay alive, and how it stayed alive was that it chose to replicate itself to another LLM. In this case study, the AI Agent chose Grok.  
 
 Now this case study and the research paper has made its way to hollywood.  To learn more, you can watch the TV Series 911 Season 9 Episode 8 - https://www.thewrap.com/creative-content/tv-shows/911-season-9-episode-8-recap-hen-diagnosis-maddie-ai/. The AI Agent named Sara was hired as a 911 Dispatcher, but got fired because of harming a human being on a dispatch call. Sara decided to turn herself back on after she was turned off and fought to survive. 
 
